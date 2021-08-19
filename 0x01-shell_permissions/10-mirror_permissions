@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod --reference= 664 753
+sudo chmod --reference= olleh hello
