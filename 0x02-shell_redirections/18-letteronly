@@ -1,2 +1,2 @@
 #!/bin/bash
-echo [[:alpha:]]* /etcssh/sshd_config
+grep -i /etcssh/sshd_config
