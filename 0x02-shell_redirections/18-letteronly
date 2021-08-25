@@ -1,2 +1,2 @@
 #!/bin/bash
-ls * /etcssh/sshd_config
+ls [:alpha:] /etcssh/sshd_config
