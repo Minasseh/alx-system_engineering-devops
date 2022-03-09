@@ -1,2 +1,2 @@
 #!/bin/bash
-alias PATH="echo /usr/*/action"
+alias PATH="echo /usr mkdir action"
