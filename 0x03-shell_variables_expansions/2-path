@@ -1,2 +1,2 @@
 #!/bin/bash
-alias PATH="/usr mkdir action"
+mkdir action /PATH
