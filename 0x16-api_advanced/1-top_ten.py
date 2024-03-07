@@ -1,20 +1,17 @@
 #!/usr/bin/python3
-'''
-module for the Reddit API
-'''
-
+"""A function used to print hot ten posts on Reddit"""
 import requests
 
+def top_ten(subreddit):
+    url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=10"
+    headers = {'User-Agent': 'Linux'}
+    response = requests.get(url, headers=headers)
 
-def top_ten(subscribers):
-    '''function that queries and returns the top 10 subscribers '''
-    headers = {'User-agent': 'test'}
-    res = requests.get("https://www.reddit.com/r/{}/hot.json"
-                       .format(subscribers), headers=headers)
-    try:
-        data = res.json()['data']['children']
-    except Exception:
+    if response.status_code == 200:
+        data = response.json()
+        posts = data['data']['children']
+        print(f"Top 10 hot posts in r/{subreddit}:")
+        for post in posts:
+            print(post['data']['title'])
+    else:
         print(None)
-        return
-    for i in range(0, 10):
-        print(data[i]['data']['title'])
