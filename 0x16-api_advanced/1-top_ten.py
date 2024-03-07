@@ -3,7 +3,7 @@
 import requests
 
 def top_ten(subreddit):
-    url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=10"
+    url = f"https://www.reddit.com/r/{subreddit}/hot.json"
     headers = {'User-Agent': 'Linux'}
     response = requests.get(url, headers=headers)
 
