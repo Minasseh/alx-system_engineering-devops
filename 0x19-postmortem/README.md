@@ -5,13 +5,13 @@ The issue happened on Feb 2, 2024. It started at around 10:30 PM GMT and lasted 
 ![Mind Blown](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHB5a2lvaGhhZGhtOWgxcDhpMGVsMDB1cnBpNDFuaGhiYzd3MzVqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5XqGhjDB48YqA/giphy.gif)
 
 ## Timeline (timezone GMT)
-10:30 PM: Changed the configuration
-10:32 PM: Outage begins
-10:37 PM: An outage was detected when I tried to refresh the page
-10:38 PM: I tried re-configuring the server, following all the steps on the intranet
-10:45 PM: Successful configuration
-10:49 PM: Restarted the server
-10:50 PM: Worked even more modified and secured
+* 10:30 PM: Changed the configuration
+* 10:32 PM: Outage begins
+* 10:37 PM: An outage was detected when I tried to refresh the page
+* 10:38 PM: I tried re-configuring the server, following all the steps on the intranet
+* 10:45 PM: Successful configuration
+* 10:49 PM: Restarted the server
+* 10:50 PM: Worked even more modified and secured
 
 ## Root cause and resolution
 It was around 10:30 PM, and I was locked into a flow state, making optimizations to my web server. One crucial improvement I wanted to implement was enabling HTTPS/SSL encryption to fortify the security of the site.  
