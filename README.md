@@ -1,2 +1,3 @@
-## This is Alx shell 0x00 project README.
+## This the README of System Engineering Devops
+it includes a lot of directories and we have learnt about so many things
 
