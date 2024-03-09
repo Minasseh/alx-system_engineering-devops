@@ -20,3 +20,7 @@ Unfortunately, as I dove deeper into the configuration process, I hit a roadbloc
 
 ## Corrective and preventative measures
 Preventive measures you can use in the future to avoid similar website outages due to certificate issues include, creating a checklist specifically for enabling HTTPS/SSL. This checklist should include all the necessary steps, like generating or obtaining a certificate, adding it to the server configuration, and verifying its installation. Following this checklist, each time will help ensure you don't miss any crucial steps. Always double-check your configuration files before applying any changes, especially when dealing with security-critical aspects like certificates.
+
+Why did the programmer bring a ladder to work?
+
+Because they heard there were bugs in the code and decided to "debug" it! 😀
